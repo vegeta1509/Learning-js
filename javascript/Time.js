@@ -1,5 +1,8 @@
 var time=3;
-console.log('hi vegeta '+'hi'); 
+var counter=require('./link');
+console.log(counter(['hi']));
+
+//console.log('hi vegeta '+'hi'); 
 /*setTimeout(function(){
     console.log('3 seconds have passes');
 },3000)*/
@@ -14,7 +17,7 @@ console.log('hi vegeta '+'hi');
     function(){
         time += 2;
         console.log(time+' seconds passed');
-        if(time>7){clearInterval(timer);}
-    },3000
+
+        //if(time>7){clearInterval(timer);}
+    },2000
 )*/
-console.log(__filename);
